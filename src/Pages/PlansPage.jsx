@@ -1,0 +1,18 @@
+
+import CradPlans from '../Components/CardPlans'
+
+export default function PlansPage(){
+    return(
+        <div className="">
+            
+             <div className="ml-18 md:ml-45 bg-gray-200/40 h-screen mb-4">
+            <h1 className="font-semibold text-xl ml-3 pt-4">Plans</h1>
+            <hr className="size-8 ml-3"></hr>
+            <CradPlans/>
+            </div>
+              
+
+            
+        </div>
+    )
+}
