@@ -1,11 +1,11 @@
-import CardFilesDesign from "../CardFilesPage/CardFilesDesign"
+import CardFilesDesign from "./CardFilesPage/CardFilesDesign"
 
 export default function CardFiles(){
     return(
        <div className="">
 
         {/* All file Card */}
-         <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 ml-3">
+         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 pb-3 ">
          <CardFilesDesign FileImg={"/imgs/pdf.svg"} FileName={"my-file.pdf"} FileDesc={"Elzero"}
          FileDate={"20/06/2020"} FileSize={"5.5MB"}/>
 

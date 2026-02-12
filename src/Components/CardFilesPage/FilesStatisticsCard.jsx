@@ -7,7 +7,7 @@ import { FaAngleDoubleUp } from "react-icons/fa";
 
 export default function FileStatisticsCard(){
     return(
-                 <div className="bg-white rounded-md shadow-2xl relative mr-3 py-3">
+                 <div className="bg-white rounded-md relative shadow-2xl py-3 mt-3 md:mt-0">
             <h1 className="font-semibold ml-4 text-lg">Files Statistics</h1>
 
             <div className="border border-gray-200 hover:bg-gray-200 rounded flex py-2 mx-4 mt-2">

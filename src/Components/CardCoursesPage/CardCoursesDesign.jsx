@@ -5,7 +5,7 @@ export default function CardFriendsDesign({Avatar, Bg , Header , Text , UsersNum
     return(
            <div className="bg-white rounded-md shadow-2xl relative">
             <div className="flex">
-                <img src={Bg} className="rounded-t-md"/>
+                <img src={Bg} className="rounded-t-md w-full"/>
                   <img src={Avatar} className=" rounded-4xl size-12 border-2 border-white absolute m-3 "/>
             </div>
 

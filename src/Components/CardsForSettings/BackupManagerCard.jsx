@@ -3,7 +3,7 @@ import { FaServer } from "react-icons/fa6";
 
 export default function WidgetsControlCard(){
     return(
-        <div className="bg-white rounded-md shadow-2xl">
+        <div className="bg-white rounded-md shadow-2xl pb-3">
             <h1 className="ml-3 mt-3 font-semibold">Bakup Manager</h1>
             <p className="text-[10px] md:text-xs ml-3 mt-1 font-semibold text-gray-400">Control Backup Time And Location</p>
 

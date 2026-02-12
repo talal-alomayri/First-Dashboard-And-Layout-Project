@@ -1,6 +1,6 @@
-import MainProfile from "../CardsProfilePage/MainProfile"
-import MySkillsCard from "../CardsProfilePage/MySkillsCard"
-import LatesActivitesCard from "../CardsProfilePage/LatestActivitiesCard"
+import MainProfile from "./CardsProfilePage/MainProfile"
+import MySkillsCard from "./CardsProfilePage/MySkillsCard"
+import LatesActivitesCard from "./CardsProfilePage/LatestActivitiesCard"
 
 export default function CardProfile(){
     return(

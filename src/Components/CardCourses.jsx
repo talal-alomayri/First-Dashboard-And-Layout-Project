@@ -1,10 +1,10 @@
 
-import CardCoursesDesign from "../CardCoursesPage/CardCoursesDesign"
+import CardCoursesDesign from "./CardCoursesPage/CardCoursesDesign"
 
 export default function CradCourses(){
     return(
        <div>
-        <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 ml-3 mr-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 ml-3 mr-3 pb-3">
           <CardCoursesDesign Avatar={"/imgs/team-01.png"} Bg={"/imgs/course-01.jpg"}
           Header={"Mastering Web Design"}
           Text={"Master The Art Of Web Designing And Mocking, Prototyping And Cerating Web Design Architecture"}

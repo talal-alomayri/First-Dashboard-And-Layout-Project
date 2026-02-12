@@ -13,7 +13,7 @@ export default function WelcomeCrad(){
             </div>
 
            {/* down part */}
-        <img src="/imgs/avatar.png" className="w-7 h-7 -mt-4 ml-3"/>
+        <img src="/imgs/avatar.png" className="size-10 -mt-5 ml-3 border-2 border-white rounded-4xl "/>
           <hr className="text-gray-300/50 mt-4"></hr>
            <div className="mx-8 py-3">
              <div className="flex justify-between text-[12px] font-semibold">

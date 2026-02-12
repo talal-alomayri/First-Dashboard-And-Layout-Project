@@ -5,7 +5,7 @@
 
 export default function LatesActivitesCard(){
     return(
-        <div className="bg-white rounded-md pb-5 shadow-2xl w-full">
+        <div className="bg-white rounded-md pb-5 shadow-2xl w-full overflow-auto">
           
               <h1 className="ml-3 mt-3 font-semibold">Latest Activities</h1>
               <p className="ml-3 mb-3 text-xs text-gray-800/50 font-semibold">Latest Activities Done By The User</p> 

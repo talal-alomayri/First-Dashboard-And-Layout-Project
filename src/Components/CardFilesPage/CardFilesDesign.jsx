@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa6";
 
 export default function CardFiles({FileImg, FileName, FileDesc, FileDate, FileSize}){
     return(
-         <div className="bg-white rounded-md shadow-2xl relative hover:bg-gray-100">
+         <div className="bg-white rounded-md shadow-2xl relative hover:bg-gray-100 ">
             <FaDownload className="text-gray-500 m-3"/>
 
             <div className="flex justify-center">
