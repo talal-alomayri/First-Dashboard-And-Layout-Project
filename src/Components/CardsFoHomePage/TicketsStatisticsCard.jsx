@@ -5,7 +5,7 @@ import { FaRegRectangleXmark } from "react-icons/fa6";
 
 export default function TiketsStatisticsCrad(){
     return(
-        <div className="bg-white rounded-md shadow-2xl"> 
+        <div className="bg-white rounded-md shadow-2xl overflow-auto"> 
           
               <h1 className="ml-3 mt-3 font-semibold">Tickets Statistics</h1>
               <p className="ml-3 text-xs text-gray-800/50 font-semibold">Everything About Support Tickets</p>

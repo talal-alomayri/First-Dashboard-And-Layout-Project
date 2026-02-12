@@ -6,7 +6,7 @@ import { FaUser } from "react-icons/fa6";
 
 export default function YearlyTargestCrad(){
     return(
-        <div className="bg-white rounded-md pb-5 shadow-2xl">
+        <div className="bg-white rounded-md pb-5 shadow-2xl overflow-auto">
           
               <h1 className="ml-3 mt-3 font-semibold">Yearly Targets</h1>
               <p className="ml-3 mb-3 text-xs text-gray-800/50 font-semibold">Targets Of The Year</p> 
@@ -23,7 +23,7 @@ export default function YearlyTargestCrad(){
                   <p className="mt-3.5 -ml-4.5 text-[8px] text-white">%80</p>
                   </div>
                   <div className="flex ">
-                   <div className="bg-blue-200 w-44 lg:w-80 h-full">
+                   <div className="bg-blue-200 w-44 lg:w-80 mr-3 h-full">
                     <div className="bg-blue-600 w-35 lg:w-67 h-full text-[2px] text-blue-600 ">-</div>
                    </div>
                   </div>

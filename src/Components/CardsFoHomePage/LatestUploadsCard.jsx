@@ -2,7 +2,7 @@
 
 export default function LatestNewsCrad(){
     return(
-        <div className="bg-white rounded-md shadow-2xl"> 
+        <div className="bg-white rounded-md shadow-2xl overflow-auto"> 
           
               <h1 className="ml-3 mt-3 mb-3 font-semibold">Latest Uploads</h1>
             
