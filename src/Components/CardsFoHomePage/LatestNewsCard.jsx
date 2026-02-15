@@ -9,7 +9,7 @@ export default function LatestNewsCrad(){
                   <button className="flex justify-between w-full">
                     <img src="/imgs/news-01.png" className="h-10 w-20 lg:h-13 lg:w-26 rounded-md ml-3"/>
                    <div className="flex hover:bg-gray-200 justify-between w-full mr-3">
-                    <div className="lg:mt-2 w-full">
+                    <div className="lg:mt-2 ">
                     <h1 className="font-bold text-[10px] lg:text-xs mt-1 ml-2">Created SASS Section</h1>
                     <p className="text-[8px] lg:text-[10px] text-gray-800/50 font-semibold mt-1 ml-2 lg:mr-1">New SASS Examples & Tutorials</p>
                     </div>

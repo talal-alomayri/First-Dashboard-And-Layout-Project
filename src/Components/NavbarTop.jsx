@@ -4,7 +4,8 @@ import { FaCircle } from "react-icons/fa";
 
 export default function NavbarTop(){
     return(
-      <nav className="bg-white px-4 pt-3 pb-2 flex justify-between ml-18 md:ml-45">
+    
+      <nav className="bg-white px-4 pt-3 pb-2 flex justify-between ml-45 md:ml-45">
         {/* nav bar part ^ */}
     
        <div className=" flex items-center gap-x-5">
@@ -23,6 +24,8 @@ export default function NavbarTop(){
        </div>
        {/* the bell part with the circle and avatar part ^ */}
        </div>
+
+       
     
         </nav>
     )

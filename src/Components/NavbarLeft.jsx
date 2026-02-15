@@ -10,11 +10,9 @@ import { FaRegCreditCard } from "react-icons/fa6";
 import { RxSlider } from "react-icons/rx";
 
 
-
-
 export default function NavbarLeft(){
     return(
-        <div className="w-18 md:w-45 bg-white fixed h-full shadow-2xl/20">
+        <div className="bg-white fixed z-1 w-45 h-full shadow-2xl/20">
           {/* here the navbar on Left I'm sure you can understand it :) */}
           <div>
            <h1 className="md:text-lg text-center mt-5">Elzero</h1>
@@ -26,7 +24,7 @@ export default function NavbarLeft(){
                  <Link to="/">
                     <div className="flex">
                     <VscGraph className="inline-block h-4 w-4 mr-2 "/>
-                    <p className=" hidden md:inline-block">Dashborad</p>
+                    <p className=" inline-block">Dashborad</p>
                     </div>
                   </Link>
              </li>
@@ -34,7 +32,7 @@ export default function NavbarLeft(){
                  <Link to="/SettingsPage">
                     <div className="flex">
                     <IoMdSettings className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">Settigns</p>
+                    <p className="inline-block">Settigns</p>
                     </div>
                  </Link>
              </li>
@@ -42,7 +40,7 @@ export default function NavbarLeft(){
                 <Link to="/ProfilePage">
                      <div className="flex">
                     <FaRegUser className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">Profile</p>
+                    <p className="inline-block">Profile</p>
                     </div>
                 </Link>
              </li>
@@ -50,7 +48,7 @@ export default function NavbarLeft(){
                 <Link to="/ProjectsPage">
                    <div className="flex">
                     <FaDiagramProject className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">Projects</p>
+                    <p className="inline-block">Projects</p>
                     </div>
                 </Link>
              </li>
@@ -58,7 +56,7 @@ export default function NavbarLeft(){
                 <Link to="/CoursesPage">
                     <div className="flex">
                     <FaGraduationCap className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">Courses</p>
+                    <p className="inline-block">Courses</p>
                     </div>
                 </Link>
              </li>
@@ -66,7 +64,7 @@ export default function NavbarLeft(){
                 <Link to="/FriendsPage">
                    <div className="flex">
                     <CgProfile className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">Frineds</p>
+                    <p className="inline-block">Frineds</p>
                     </div>
                 </Link>
              </li>
@@ -74,7 +72,7 @@ export default function NavbarLeft(){
                 <Link to="/FilesPage">
                      <div className="flex">
                     <FaRegFile className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">File</p>
+                    <p className="inline-block">File</p>
                     </div>
                 </Link>
              </li>
@@ -82,7 +80,7 @@ export default function NavbarLeft(){
                 <Link to="/PlansPage">
                    <div className="flex">
                     <FaRegCreditCard className="inline-block h-4 w-4 mr-2  "/>
-                    <p className="hidden md:inline-block">Plans</p>
+                    <p className="inline-block">Plans</p>
                     </div>
                 </Link>
              </li>

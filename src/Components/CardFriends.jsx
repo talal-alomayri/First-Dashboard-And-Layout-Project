@@ -1,43 +1,63 @@
-import CardFriendsDesign from "./CardFriendsPage/CardFrindesDesign"
+import FriendArr from "./Frineds.json"
+import { IoIosCall } from "react-icons/io";
+import { FaRegEnvelope } from "react-icons/fa";
+import { CiFaceSmile } from "react-icons/ci";
+import { RxSlider } from "react-icons/rx";
+import { PiCalculatorBold } from "react-icons/pi";
 
 
 export default function CradFriends(){
     return(
-       <div>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 ml-3 mr-3 pb-3">
-         <CardFriendsDesign FName={"Ahmed Nasser"} FJob={"JavaScript Developer"} Imgs={"/imgs/friend-01.jpg"}
-         Fnums={"99 Friend"} FProjects={"15 Projects"} FArticles={"25 Articles"} FJoined={"Joined 02/10/2021"}
-         VIP={"VIP"}/>
-         <CardFriendsDesign FName={"Omar Fathy"} FJob={"Cloud Developer"} Imgs={"/imgs/friend-02.jpg"}
-         Fnums={"30 Friend"} FProjects={"11 Projects"} FArticles={"12 Articles"} FJoined={"Joined 02/08/2020"}
-         />
-         <CardFriendsDesign FName={"Omar Ahmed"} FJob={"Mobile Developer"} Imgs={"/imgs/friend-03.jpg"}
-         Fnums={"80 Friend"} FProjects={"20 Projects"} FArticles={"18 Articles"} FJoined={"Joined 02/06/2020"}
-         />
-         <CardFriendsDesign FName={"Shady Nabil"} FJob={"Back-End Developer"} Imgs={"/imgs/friend-04.jpg"}
-         Fnums={"70 Friend"} FProjects={"30 Projects"} FArticles={"18 Articles"} FJoined={"Joined 28/06/2020"}
-         />
-         <CardFriendsDesign FName={"Mohamed Ibrahim"} FJob={"Algorithm Developer"} Imgs={"/imgs/friend-05.jpg"}
-         Fnums={"80 Friend"} FProjects={"30 Projects"} FArticles={"18 Articles"} FJoined={"Joined 28/08/2020"}
-        />
-         <CardFriendsDesign FName={"Amr Hendawy"} FJob={"Back-End Developer"} Imgs={"/imgs/friend-04.jpg"}
-         Fnums={"70 Friend"} FProjects={"30 Projects"} FArticles={"18 Articles"} FJoined={"Joined 28/06/2020"}
-         />
-         <CardFriendsDesign FName={"Mahmoud Adel"} FJob={"Cloud Developer"} Imgs={"/imgs/friend-02.jpg"}
-         Fnums={"30 Friend"} FProjects={"11 Projects"} FArticles={"12 Articles"} FJoined={"Joined 02/08/2020"}
-         />
-         <CardFriendsDesign FName={"Ahmed Abuzaid"} FJob={"Content Creator"} Imgs={"/imgs/friend-05.jpg"}
-         Fnums={"80 Friend"} FProjects={"30 Projects"} FArticles={"18 Articles"} FJoined={"Joined 28/08/2020"}
-         VIP={"Vip"}/>
-         <CardFriendsDesign FName={"Gareeb Elshiekh"} FJob={"JavaScript Developer"} Imgs={"/imgs/friend-01.jpg"}
-         Fnums={"90 Friend"} FProjects={"15 Projects"} FArticles={"25 Articles"} FJoined={"Joined 02/10/2020"}
-         VIP={"Vip"}/>
-         <CardFriendsDesign FName={"Hamza"} FJob={"Front-End Developer"} Imgs={"/imgs/friend-03.jpg"}
-         Fnums={"80 Friend"} FProjects={"20 Projects"} FArticles={"18 Articles"} FJoined={"Joined 02/06/2020"}
-         />
-        </div>
-          
-       </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
+              {FriendArr.map(friend =>(
+                 <div className="bg-white rounded-md shadow-2xl relative "> 
+           <div className="flex text-gray-500">
+             <IoIosCall     className="bg-stone-200 rounded-4xl size-5 m-1 py-1"/>
+             <FaRegEnvelope className="bg-stone-200 rounded-4xl size-5 m-1 py-1"/>
+           </div>
+           
+          <div className="flex justify-center -mt-3">
+           <img src={friend.Imgs} className="rounded-4xl size-16 "/>
+          </div>
+
+          <h1 className="text-xs text-center font-semibold mt-2">{friend.FriendsName}</h1>
+          <p className="text-[10px] text-center text-gray-500">{friend.FriendJob}</p>
+
+          <hr className="text-gray-200 mx-3 my-3"></hr>
+         <div className="flex justify-between">
+          <div>
+          <div className="flex ml-3">
+            <CiFaceSmile className="size-3"/>
+            <p className="text-[8px] ml-1 ">{friend.FriendNums}</p>
+          </div>
+          <div className="flex ml-3">
+            <RxSlider className="size-3"/>
+            <p className="text-[8px] ml-1 ">{friend.FriendProject}</p>
+          </div>
+          <div className="flex ml-3">
+            <PiCalculatorBold className="size-3"/>
+            <p className="text-[8px] ml-1 ">{friend.FriendArticles}</p>
+          </div>
+          </div>
+
+          <div>
+            <h1 className="mr-6 text-2xl text-amber-500 font-semibold opacity-25">{friend.VIP}</h1>
+          </div>
+         </div>
+
+           <hr className="text-gray-200 mx-3 my-3 "></hr>
+
+          <div className="flex justify-between mx-3">
+           <p className="text-[8px]">{friend.FriendJoiend}</p>
+           <div className="flex gap-0.5">
+           <button className="text-[10px] bg-blue-600 hover:bg-blue-400 text-white rounded-md p-1 -mt-1 mb-2 ">Profile</button>
+           <button className="text-[10px] bg-red-500 hover:bg-red-400 text-white rounded-md p-1  -mt-1 mb-2">Remove</button>
+           </div>
+          </div>
+        </div>      
+               ))}
+               </div>
+             
 
     )
 }

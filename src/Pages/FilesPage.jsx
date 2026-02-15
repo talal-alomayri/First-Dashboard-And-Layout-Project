@@ -6,7 +6,7 @@ export default function FilesPage(){
     return(
         <div className="">
             
-            <div className="ml-18 md:ml-45 bg-gray-200/40 pb-3 h-full">
+            <div className=" bg-gray-200/40 pb-3 h-full">
             <div>
             <h1 className="font-semibold text-xl ml-3 pt-4">Files</h1>
             <hr className="size-8 ml-3"></hr>

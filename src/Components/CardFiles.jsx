@@ -1,83 +1,31 @@
-import CardFilesDesign from "./CardFilesPage/CardFilesDesign"
+import { FaDownload } from "react-icons/fa6";
+import FilesArr from "./Files.json"
 
 export default function CardFiles(){
     return(
-       <div className="">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
+        {FilesArr.map(File => (
+            <div className="bg-white rounded-md shadow-2xl relative hover:bg-gray-100 ">
+              <FaDownload className="text-gray-500 m-3"/>
 
-        {/* All file Card */}
-         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 pb-3 ">
-         <CardFilesDesign FileImg={"/imgs/pdf.svg"} FileName={"my-file.pdf"} FileDesc={"Elzero"}
-         FileDate={"20/06/2020"} FileSize={"5.5MB"}/>
+              <div className="flex justify-center">
+                 <img src={File.FileImag} className="size-14 -mt-4"/> 
+              </div>
 
-         <CardFilesDesign FileImg={"/imgs/avi.svg"} FileName={"my-file.avi"} FileDesc={"Admin"}
-         FileDate={"16/05/2021"} FileSize={"12.5MB"}/>
+              <h1 className="text-center text-sm my-4">{File.FileName}</h1>
 
-         <CardFilesDesign FileImg={"/imgs/eps.svg"} FileName={"my-file.eps"} FileDesc={"Uploadar"}
-         FileDate={"16/05/2021"} FileSize={"2.7MB"}/>
 
-         <CardFilesDesign FileImg={"/imgs/psd.svg"} FileName={"my-file.psd"} FileDesc={"Osama"}
-         FileDate={"16/05/2021"} FileSize={"15.1MB"}/>
+              <h1 className="text-xs text-gray-400 font-semibold my-4 ml-3">{File.FileDesc}</h1>
 
-         <CardFilesDesign FileImg={"/imgs/dll.svg"} FileName={"my-file.dll"} FileDesc={"Coder"}
-         FileDate={"16/05/2021"} FileSize={"2.2MB"}/>
+              <hr className="text-gray-300 mx-3 my-3"></hr>
 
-         <CardFilesDesign FileImg={"/imgs/png.svg"} FileName={"my-file.png"} FileDesc={"Designer"}
-         FileDate={"16/05/2021"} FileSize={"1.1MB"}/>
+              <div className="flex justify-between mx-3 my-3 font-semibold text-xs text-gray-400">
+                <p>{File.FileDate}</p>
+                <p>{File.FileSize}</p>
+              </div>
+            </div>
+        ))}
 
-         <CardFilesDesign FileImg={"/imgs/dll.svg"} FileName={"my-file.dll"} FileDesc={"Coder"}
-         FileDate={"16/05/2021"} FileSize={"2.2MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/png.svg"} FileName={"my-file.png"} FileDesc={"Designer"}
-         FileDate={"16/05/2021"} FileSize={"1.1MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/psd.svg"} FileName={"my-file.psd"} FileDesc={"Osama"}
-         FileDate={"16/05/2021"} FileSize={"15.1MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/pdf.svg"} FileName={"my-file.pdf"} FileDesc={"Elzero"}
-         FileDate={"16/05/2021"} FileSize={"5.5MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/avi.svg"} FileName={"my-file.avi"} FileDesc={"Admin"}
-         FileDate={"16/05/2021"} FileSize={"12.5MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/eps.svg"} FileName={"my-file.eps"} FileDesc={"Uploadar"}
-         FileDate={"16/05/2021"} FileSize={"2.7MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/pdf.svg"} FileName={"my-file.pdf"} FileDesc={"Elzero"}
-         FileDate={"16/05/2021"} FileSize={"5.5MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/avi.svg"} FileName={"my-file.avi"} FileDesc={"Admin"}
-         FileDate={"16/05/2021"} FileSize={"12.5MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/eps.svg"} FileName={"my-file.eps"} FileDesc={"Uploadar"}
-         FileDate={"16/05/2021"} FileSize={"2.7MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/psd.svg"} FileName={"my-file.psd"} FileDesc={"Osama"}
-         FileDate={"16/05/2021"} FileSize={"15.1MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/dll.svg"} FileName={"my-file.dll"} FileDesc={"Coder"}
-         FileDate={"16/05/2021"} FileSize={"2.2MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/png.svg"} FileName={"my-file.png"} FileDesc={"Designer"}
-         FileDate={"16/05/2021"} FileSize={"1.1MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/dll.svg"} FileName={"my-file.dll"} FileDesc={"Coder"}
-         FileDate={"16/05/2021"} FileSize={"2.2MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/png.svg"} FileName={"my-file.png"} FileDesc={"Designer"}
-         FileDate={"16/05/2021"} FileSize={"1.1MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/psd.svg"} FileName={"my-file.psd"} FileDesc={"Osama"}
-         FileDate={"16/05/2021"} FileSize={"15.1MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/pdf.svg"} FileName={"my-file.pdf"} FileDesc={"Elzero"}
-         FileDate={"16/05/2021"} FileSize={"5.5MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/avi.svg"} FileName={"my-file.avi"} FileDesc={"Admin"}
-         FileDate={"16/05/2021"} FileSize={"12.5MB"}/>
-
-         <CardFilesDesign FileImg={"/imgs/eps.svg"} FileName={"my-file.eps"} FileDesc={"Uploadar"}
-         FileDate={"16/05/2021"} FileSize={"2.7MB"}/>   
-        </div>
-     </div>
+      </div>
     )
 }

@@ -9,12 +9,11 @@ import FilesPage from './Pages/FilesPage'
 import PlansPage from './Pages/PlansPage'
 import Thelayout from './Components/layout'
 
-
 function App() {
 
   return (
-  
-  <Router> {/* Router For Moveing From Page To Another */}
+    
+ <Router> {/* Router For Moveing From Page To Another */}
   <Thelayout/>
     <Routes>
       <Route path="/" element={<HomePage/>}/>
@@ -25,8 +24,8 @@ function App() {
       <Route path="/FriendsPage" element={<FriendsPage/>}/>
       <Route path="/FilesPage" element={<FilesPage/>}/>
       <Route path="/PlansPage" element={<PlansPage/>}/>
-    </Routes>
-  </Router>
+    </Routes> 
+</Router>
   )
 }
 

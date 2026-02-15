@@ -1,0 +1,112 @@
+[
+{
+ "id":"1",
+ "FriendsName":"Ahmed Nasser",
+ "FriendJob":"JavaScript Developer",
+ "Imgs":"/imgs/friend-01.jpg",
+ "FriendNums":"99 Friend",
+ "FriendProject":"15 Project",
+ "FriendArticles":"25 Articles",
+ "FriendJoiend":"Joiend 02/10/2021",
+ "VIP":"VIP"
+},    
+{
+ "id":"2",
+ "FriendsName":"Omar Fathy",
+ "FriendJob":"Cloud Developer",
+ "Imgs":"/imgs/friend-02.jpg",
+ "FriendNums":"30 Friend",
+ "FriendProject":"11 Project",
+ "FriendArticles":"12 Articles",
+ "FriendJoiend":"Joiend 02/10/2020",
+ "VIP":""
+},    
+{
+ "id":"3",
+ "FriendsName":"Omar Ahmed",
+ "FriendJob":"Mobile Developer",
+ "Imgs":"/imgs/friend-03.jpg",
+ "FriendNums":"80 Friend",
+ "FriendProject":"20 Project",
+ "FriendArticles":"18 Articles",
+ "FriendJoiend":"Joiend 02/06/2020",
+ "VIP":""
+},    
+{
+ "id":"4",
+ "FriendsName":"Shady Nabil",
+ "FriendJob":"Back-End Developer",
+ "Imgs":"/imgs/friend-04.jpg",
+ "FriendNums":"70 Friend",
+ "FriendProject":"30 Project",
+ "FriendArticles":"18 Articles",
+ "FriendJoiend":"Joiend 28/06/2020",
+ "VIP":""
+},    
+{
+ "id":"5",
+ "FriendsName":"Mohamed Ibrahim",
+ "FriendJob":"Alogrithm Developer",
+ "Imgs":"/imgs/friend-05.jpg",
+ "FriendNums":"80 Friend",
+ "FriendProject":"30 Project",
+ "FriendArticles":"18 Articles",
+ "FriendJoiend":"Joiend 28/08/2020",
+ "VIP":""
+},    
+{
+ "id":"6",
+ "FriendsName":"Amr Hendawy",
+ "FriendJob":"Back-End Developer",
+ "Imgs":"/imgs/friend-04.jpg",
+ "FriendNums":"70 Friend",
+ "FriendProject":"30 Project",
+ "FriendArticles":"18 Articles",
+ "FriendJoiend":"Joiend 28/06/2020",
+ "VIP":""
+},    
+{
+ "id":"7",
+ "FriendsName":"Mohamed Adel",
+ "FriendJob":"Cloud Developer",
+ "Imgs":"/imgs/friend-02.jpg",
+ "FriendNums":"30 Friend",
+ "FriendProject":"11 Project",
+ "FriendArticles":"12 Articles",
+ "FriendJoiend":"Joiend 02/08/2020",
+ "VIP":""
+},    
+{
+ "id":"8",
+ "FriendsName":"Ahmed Abuzaid",
+ "FriendJob":"Content Creator",
+ "Imgs":"/imgs/friend-05.jpg",
+ "FriendNums":"80 Friend",
+ "FriendProject":"30 Project",
+ "FriendArticles":"18 Articles",
+ "FriendJoiend":"Joiend 28/08/2020",
+ "VIP":"vip"
+},    
+{
+ "id":"9",
+ "FriendsName":"Gareeb Elshiekh",
+ "FriendJob":"JavaScript Developer",
+ "Imgs":"/imgs/friend-01.jpg",
+ "FriendNums":"90 Friend",
+ "FriendProject":"15 Project",
+ "FriendArticles":"25 Articles",
+ "FriendJoiend":"Joiend 02/10/2020",
+ "VIP":"vip"
+},    
+{
+ "id":"10",
+ "FriendsName":"Hamza",
+ "FriendJob":"Front-End Developer",
+ "Imgs":"/imgs/friend-03.jpg",
+ "FriendNums":"80 Friend",
+ "FriendProject":"20 Project",
+ "FriendArticles":"18 Articles",
+ "FriendJoiend":"Joiend 02/06/2020",
+ "VIP":""
+}   
+]
