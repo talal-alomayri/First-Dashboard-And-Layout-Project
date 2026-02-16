@@ -15,8 +15,8 @@ export default function NavbarLeft(){
         <div className="bg-white fixed z-1 w-45 h-full shadow-2xl/20">
           {/* here the navbar on Left I'm sure you can understand it :) */}
           <div>
-           <h1 className="md:text-lg text-center mt-5">Elzero</h1>
-           <RxSlider className="md:w-10 w-5 h-16 md ml-6 md:ml-17 pb-8"/>
+           <h1 className="text-lg text-center mt-7">Elzero</h1>
+           <RxSlider className="md:w-10 w-7 h-15 md ml-18 pb-8"/>
            
            {/* here the Unordered list with the Icons and link to move from page to another */}
            <ul className=" md:ml-5 mr-2 md:mt-2 text-xs">
