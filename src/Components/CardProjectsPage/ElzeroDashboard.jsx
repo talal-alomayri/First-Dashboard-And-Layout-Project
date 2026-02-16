@@ -34,7 +34,7 @@ export default function ElzeroDashboard(){
 
              <div className="flex justify-between mx-3 mb-2">
                  <div className="flex py-1 ">
-                   <div className="bg-red-500 w-12 h-full text-[2px] rounded-2xl">-</div>
+                   <div className="bg-red-600 w-12 h-full text-[2px] rounded-2xl">-</div>
                     <div className="bg-gray-300 w-7 h-full text-[2px] rounded-r-2xl text-red-600 ">-</div>
                    </div>
 

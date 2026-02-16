@@ -5,10 +5,10 @@ import { FaCircle } from "react-icons/fa";
 export default function NavbarTop(){
     return(
     
-      <nav className="bg-white px-4 pt-3 pb-2 flex justify-between ml-45 md:ml-45">
+      <nav className="bg-white px-4 pt-3 pb-2 flex justify-between">
         {/* nav bar part ^ */}
     
-       <div className=" flex items-center gap-x-5">
+       <div className=" flex items-center gap-x-5 ml-35">
          <span className="absolute flex items-center pl-1 ">
            <button className="pl-1 pb-1 focus:outline-none "><IoIosSearch className="text-sm text-gray-500"/></button></span>
            <input type="text" className=" w-35 pl-7 pb-1 rounded-lg border-gray-400 border shadow outline-none 
