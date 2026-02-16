@@ -6,9 +6,9 @@ export default function LatestNewsCrad(){
           
               <h1 className="ml-3 mt-3 mb-1 font-semibold">Latest News</h1>
             
-                  <button className="flex justify-between w-full">
+                  <button className="flex justify-between w-full ">
                     <img src="/imgs/news-01.png" className="h-10 w-20 lg:h-13 lg:w-26 rounded-md ml-3"/>
-                   <div className="flex hover:bg-gray-200 justify-between w-full mr-3">
+                   <div className="flex hover:bg-gray-200 justify-between w-full mr-3 cursor-pointer">
                     <div className="lg:mt-2 ">
                     <h1 className="font-bold text-[10px] lg:text-xs mt-1 ml-2">Created SASS Section</h1>
                     <p className="text-[8px] lg:text-[10px] text-gray-800/50 font-semibold mt-1 ml-2 lg:mr-1">New SASS Examples & Tutorials</p>
@@ -23,7 +23,7 @@ export default function LatestNewsCrad(){
      
                   <button className="flex w-full">
                     <img src="/imgs/news-02.png" className="h-10 w-20  lg:h-13 lg:w-26 rounded-md ml-3"/>
-                   <div className="flex justify-between w-full mr-3 hover:bg-gray-200">
+                   <div className="flex justify-between w-full mr-3 hover:bg-gray-200 cursor-pointer">
                     <div className="lg:mt-2">
                     <h1 className="font-bold text-[10px] lg:text-xs mt-1 ml-2">Changed The Design</h1>
                     <p className="text-[8px] lg:text-[10px] text-gray-800/50 font-semibold mt-1 ml-2 lg:mr-1">A Brand New Website Desing</p>
@@ -38,7 +38,7 @@ export default function LatestNewsCrad(){
                   
                   <button className="flex w-full">
                     <img src="/imgs/news-03.png" className="h-10 w-20 lg:h-13 lg:w-26 rounded-md ml-3"/>
-                   <div className="flex justify-between w-full mr-3 hover:bg-gray-200"> 
+                   <div className="flex justify-between w-full mr-3 hover:bg-gray-200 cursor-pointer"> 
                     <div className="lg:mt-2">
                     <h1 className="font-bold text-[10px] lg:text-xs mt-1 ml-2">Team Increased</h1>
                     <p className="text-[8px] lg:text-[10px] text-gray-800/50 font-semibold mt-1 ml-2 lg:mr-1">3 Developers Joined The Team</p>
@@ -53,7 +53,7 @@ export default function LatestNewsCrad(){
                   
                   <button className="flex w-full">
                     <img src="/imgs/news-04.png" className="h-10 w-20 lg:h-13 lg:w-26 rounded-md ml-3"/>
-                   <div className="flex justify-between w-full mr-3 hover:bg-gray-200">
+                   <div className="flex justify-between w-full mr-3 hover:bg-gray-200 cursor-pointer">
                     <div className="lg:mt-2">
                     <h1 className="font-bold text-[10px] lg:text-xs mt-1 ml-2">Added Payment Gateway</h1>
                     <p className="text-[7px] lg:text-[10px] text-gray-800/50 font-semibold mt-1 ml-2 lg:mr-1">Many New Payment Gateways Added</p>

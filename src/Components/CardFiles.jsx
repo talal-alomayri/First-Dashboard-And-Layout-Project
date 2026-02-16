@@ -5,7 +5,7 @@ export default function CardFiles(){
     return(
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
         {FilesArr.map(File => (
-            <div className="bg-white rounded-md shadow-2xl relative hover:bg-gray-100 ">
+            <div className="bg-white rounded-md shadow-2xl relative hover:bg-gray-100 cursor-pointer">
               <FaDownload className="text-gray-500 m-3"/>
 
               <div className="flex justify-center">

@@ -1,7 +1,7 @@
 import NavbarLeft from "./NavbarLeft"
 import NavTopW from "./NavTopW"
 import {useState} from "react";
-import { AiOutlineBars } from "react-icons/ai";
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 
 export default function Thelayout(){
@@ -17,9 +17,9 @@ export default function Thelayout(){
     return (
        <div className="">
         <NavbarLeft isOpen={isSidebarOpen}/>
-      <div className="flex-1 fixed bg-white z-1 rounded-md p-1">
+      <div className="flex-1 fixed bg-white z-2 rounded-md pt-3 pl-3">
          <button onClick={toggleSidebar}>
-            <AiOutlineBars className="size-6"/>        
+            <HiOutlineBars3 className="size-6 cursor-pointer"/>        
          </button>
      </div>
         {/* Calling the Navbard and NavTopW */}

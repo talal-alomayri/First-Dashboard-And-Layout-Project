@@ -26,7 +26,7 @@ export default function QuickDraftCrad(){
               
         <div className="flex justify-end pt-3 pb-3 pr-3 ">
           <button className="bg-blue-600 hover:bg-blue-400 text-white rounded-sm text-[10px] font-semibold
-           py-0.5 px-2 ">Save</button>
+           py-0.5 px-2 cursor-pointer">Save</button>
         </div>
        
 

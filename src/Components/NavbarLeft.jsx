@@ -12,7 +12,7 @@ import { RxSlider } from "react-icons/rx";
 
 export default function NavbarLeft({isOpen}){
     return(
-        <div className={`bg-white fixed z-1 w-fit flex h-full shadow-2xl/20 transition-transform
+        <div className={`bg-white fixed z-2 w-fit flex h-full shadow-2xl/20 transition-transform
          duration-300 ${isOpen ? "-translate-x-45" : null} `}>
           {/* here the navbar on Left I'm sure you can understand it :) */}
           <div>

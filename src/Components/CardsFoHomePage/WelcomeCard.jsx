@@ -32,7 +32,7 @@ export default function WelcomeCrad(){
         <div className="flex justify-end pt-3 pb-11 pr-3">
           <Link to="/ProfilePage">
           <button className="bg-blue-600 text-white rounded-sm text-[10px] font-semibold
-           hover:bg-blue-400 py-0.5 px-2 ">Profile</button>
+           hover:bg-blue-400 py-0.5 px-2 cursor-pointer ">Profile</button>
           </Link> 
         </div>
        

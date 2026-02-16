@@ -50,8 +50,8 @@ export default function CradFriends(){
           <div className="flex justify-between mx-3">
            <p className="text-[8px]">{friend.FriendJoiend}</p>
            <div className="flex gap-0.5">
-           <button className="text-[10px] bg-blue-600 hover:bg-blue-400 text-white rounded-md p-1 -mt-1 mb-2 ">Profile</button>
-           <button className="text-[10px] bg-red-500 hover:bg-red-400 text-white rounded-md p-1  -mt-1 mb-2">Remove</button>
+           <button className="text-[10px] bg-blue-600 hover:bg-blue-400 text-white rounded-md p-1 -mt-1 mb-2 cursor-pointer">Profile</button>
+           <button className="text-[10px] bg-red-500 hover:bg-red-400 text-white rounded-md p-1  -mt-1 mb-2 cursor-pointer">Remove</button>
            </div>
           </div>
         </div>      

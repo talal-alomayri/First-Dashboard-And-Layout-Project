@@ -97,7 +97,7 @@ export default function CardOfAllPlans(){
 
            <hr className="text-gray-300 my-3"></hr>
 
-           <button className="bg-green-500 hover:bg-green-400 text-white rounded text-xs px-2 py-0.5">Join</button>
+           <button className="bg-green-500 hover:bg-green-400 text-white rounded text-xs px-2 py-0.5 cursor-pointer">Join</button>
          </div>
     )
 }

@@ -13,7 +13,7 @@ export default function CradCourses() {
             <h1 className="text-sm font-semibold p-4">{course.Header}</h1>
             <p className="text-[10px] font-semibold px-4 text-gray-400 ">{course.Text}</p>
             <div className="flex justify-center my-3">
-              <button className="bg-blue-600 hover:bg-blue-400 rounded-sm text-white text-[10px] px-2 py-1">Course Info</button>
+              <button className="bg-blue-600 hover:bg-blue-400 rounded-sm text-white text-[10px] px-2 py-1 cursor-pointer">Course Info</button>
             </div>
             <hr className="text-gray-300" />
             <div className="flex justify-between">
