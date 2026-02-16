@@ -10,17 +10,20 @@ import { FaRegCreditCard } from "react-icons/fa6";
 import { RxSlider } from "react-icons/rx";
 
 
-export default function NavbarLeft(){
+export default function NavbarLeft({isOpen}){
     return(
-        <div className="bg-white fixed z-1 w-45 h-full shadow-2xl/20">
+        <div className={`bg-white fixed z-1 w-fit flex h-full shadow-2xl/20 transition-transform
+         duration-300 ${isOpen ? null : "-translate-x-45"} `}>
           {/* here the navbar on Left I'm sure you can understand it :) */}
           <div>
-           <h1 className="text-lg text-center mt-7">Elzero</h1>
-           <RxSlider className="md:w-10 w-7 h-15 md ml-18 pb-8"/>
+           <h1 className="text-lg text-center mt-8">Elzero</h1>
+           <div className='flex justify-center'>
+           <RxSlider className=" w-7 h-15 pb-4"/>
+           </div>
            
            {/* here the Unordered list with the Icons and link to move from page to another */}
-           <ul className=" md:ml-5 mr-2 md:mt-2 text-xs">
-             <li className="pl-2 pt-2 pb-2 rounded-sm text hover:bg-gray-100">
+           <ul className="mx-3 md:mt-2 text-xs">
+             <li className="pl-2 pr-10 pt-2 pb-2 rounded-sm text hover:bg-gray-100">
                  <Link to="/">
                     <div className="flex">
                     <VscGraph className="inline-block h-4 w-4 mr-2 "/>

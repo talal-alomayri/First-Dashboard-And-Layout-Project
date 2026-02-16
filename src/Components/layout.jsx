@@ -15,8 +15,8 @@ export default function Thelayout(){
     }
   }
     return (
-       <div className="flex duration-300">
-        {isSidebarOpen && <NavbarLeft/> }
+       <div className="">
+        <NavbarLeft isOpen={isSidebarOpen}/>
       <div className="flex-1 fixed bg-white z-1 rounded-md p-1">
          <button onClick={toggleSidebar}>
             <AiOutlineBars className="size-6"/>        
