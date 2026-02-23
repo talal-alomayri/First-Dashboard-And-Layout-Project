@@ -9,14 +9,14 @@ export default function QuickDraftCrad(){
               <div className="">
 
                <div className="px-3">
-              <input type="text" className="bg-stone-200 rounded-sm w-full  placeholder:text-[10px]
-               placeholder:pl-1 pb-1 font-semibold text-gray-800/70"
+              <input type="text" className="bg-stone-200 rounded-sm w-full text-[10px]
+               p-2 font-semibold text-gray-800/70"
               placeholder="Title"/>
               </div> 
              
               <div className="px-3">
-              <input type="text" className="mt-4 pb-20 bg-stone-200 rounded-sm w-full placeholder:text-[10px] 
-               placeholder:pl-1 font-semibold text-gray-800/70"
+              <input type="text" className="mt-4 pb-20 bg-stone-200 rounded-sm w-full text-[10px] 
+               p-2 font-semibold text-gray-800/70"
               placeholder="Your Thought"/>
               </div>
 

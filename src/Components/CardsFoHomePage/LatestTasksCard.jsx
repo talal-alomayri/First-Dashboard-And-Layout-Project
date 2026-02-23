@@ -57,7 +57,7 @@ export default function LatestNewsCrad(){
 
                    <hr className="text-gray-200 mx-3"></hr>
                   
-                  <div className="flex justify-between hover:bg-gray-100 hover:mx-0.5 cursor-pointer">
+                  <div className="flex justify-between hover:bg-gray-100 hover:mx-0.5 cursor-pointer mb-3">
                     <div className="lg:mt-2">
                     <h1 className="font-bold text-[10px] lg:text-xs mt-1 ml-2">Finish Lesson</h1>
                     <p className="text-[7px] lg:text-[10px] text-gray-800/50 font-semibold mt-1 ml-2 lg:mr-1">Finish Teaching Flex Box</p>

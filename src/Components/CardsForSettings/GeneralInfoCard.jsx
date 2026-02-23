@@ -9,19 +9,19 @@ export default function GeneralInfoCard(){
 
            <h1 className="ml-3 mb-1 text-gray-400 text-xs">First Name</h1>
             <div className="px-3 mb-3">
-                <input type="text" className="border border-gray-300 rounded w-full py-1 placeholder:text-gray-400 placeholder:p-2 placeholder:text-xs"
+                <input type="text" className="border border-gray-300 rounded w-full py-1 text-gray-600 p-2 text-xs"
                 placeholder="First Name"/>
             </div>
 
            <h1 className="ml-3 mb-1 text-gray-400 text-xs">Last Name</h1>
             <div className="px-3 mb-3">
-                <input type="text" className="border border-gray-300 rounded w-full py-1 placeholder:text-gray-400 placeholder:p-2 placeholder:text-xs"
+                <input type="text" className="border border-gray-300 rounded w-full py-1 text-gray-600 p-2 text-xs"
                 placeholder="Last Name"/>
             </div>
 
            <h1 className="ml-3 mb-1 text-gray-400 text-xs">Email</h1>
             <div className="px-3 mb-3 flex justify-between">
-                <input type="text" className="border border-gray-300 bg-gray-100 rounded w-full py-1 placeholder:text-gray-400 placeholder:p-2 placeholder:text-xs"
+                <input type="text" className="border border-gray-300 bg-gray-100 rounded w-full py-2 text-gray-400 p-2 text-xs"
                 placeholder="o@nn.sa"/>
                 <button className="text-blue-600 px-4 text-xs cursor-pointer">Change</button>
             </div>

@@ -1,6 +1,6 @@
 import NavbarLeft from "./NavbarLeft"
 import NavTopW from "./NavTopW"
-import {useState} from "react";
+import { useState} from "react";
 import { HiOutlineBars3 } from "react-icons/hi2";
 
 
@@ -14,6 +14,7 @@ export default function Thelayout(){
       setIsSidebarOpen(true);
     }
   }
+
     return (
        <div className="">
         <NavbarLeft isOpen={isSidebarOpen}/>

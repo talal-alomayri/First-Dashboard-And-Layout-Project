@@ -28,7 +28,7 @@ export default function LatestPostCard(){
           <hr className="text-gray-200 my-2"></hr>
           
           
-          <div className="flex justify-between mx-3 ">
+          <div className="flex justify-between mx-3 mb-3">
            <div className="flex">
             <CiHeart className="size-3 lg:size-4 text-gray-400 hover:text-gray-600 "/>
             <p className="text-[8px] lg:text-[10px] text-gray-400">1.8K</p>

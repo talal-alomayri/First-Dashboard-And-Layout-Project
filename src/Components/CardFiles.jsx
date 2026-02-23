@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa6";
-import FilesArr from "./Files.json"
+import FilesArr from "../Jsons/Files.json"
 
 export default function CardFiles(){
     return(

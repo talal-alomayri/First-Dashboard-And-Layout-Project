@@ -1,4 +1,4 @@
-import CoursesArr from "./Courses.json"
+import CoursesArr from "../Jsons/Courses.json"
 import { FaRegUser } from "react-icons/fa6";
 import { FaDollarSign } from "react-icons/fa6";
 

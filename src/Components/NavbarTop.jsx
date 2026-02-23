@@ -20,7 +20,7 @@ export default function NavbarTop(){
        <div className="flex justify-between gap-2"><button><FaRegBell className="w-3 h-6 -mt-2 hover:text-gray-400 cursor-pointer"/></button>
        <FaCircle className="text-red-500 size-1.75 -ml-3 mt-0.5 "/>
        <div className=" relative "><button><img src="/imgs/avatar.png" 
-       className="w-6 h-6 cursor-pointer"/></button>
+       className="w-6 h-6 cursor-pointer hover:opacity-70"/></button>
        </div>
        {/* the bell part with the circle and avatar part ^ */}
        </div>

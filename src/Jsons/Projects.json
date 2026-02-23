@@ -1,0 +1,171 @@
+[
+{
+ "id":"1",
+ "Name":"Elzero Dashboard",
+ "Desc":"Elzero Dashboard Project Design And Programming And Hosting",
+ "date":"15/10/2021",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png",
+ "./imgs/team-04.png",
+ "./imgs/team-05.png"
+ ],
+ "skils":[
+  "Programming",
+  "Design",
+  "Hosting",
+  "Marketing"
+ ],
+ "Progress":"40",
+ "bgProgressColor":"bg-red-500",
+ "price":"2500"
+},
+{
+ "id":"2",
+ "Name":"Academy Portal",
+ "Desc":"Academy Portal Project Design And Programming",
+ "date":"15/06/2022",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png"
+ ],
+ "skils":[
+  "Programming",
+  "Design"
+ ],
+ "Progress":"80",
+ "bgProgressColor":"bg-green-500",
+ "price":"1800"
+},
+{
+ "id":"3",
+ "Name":"Chatting Application",
+ "Desc":"Chatting Application Project Design",
+ "date":"15/06/2021",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png"
+ ],
+ "skils":[
+  "Design"
+ ],
+ "Progress":"100",
+ "bgProgressColor":"bg-blue-500",
+ "price":"950"
+},
+{
+ "id":"4",
+ "Name":"Ahmed Dashborad",
+ "Desc":"Ahmed Dashborad Project Design And Programming And Hosting",
+ "date":"15/06/2022",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png",
+ "./imgs/team-04.png"
+ ],
+ "skils":[
+  "Programming",
+  "Design",
+  "Hosting",
+  "Marketing"
+ ],
+ "Progress":"60",
+ "bgProgressColor":"bg-green-500",
+ "price":"1700"
+},
+{
+ "id":"5",
+ "Name":"Ahmed Portal",
+ "Desc":"Ahmed Portal Project Design And Programming",
+ "date":"15/10/2021",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png"
+ ],
+ "skils":[
+  "Programming",
+  "Design"
+ ],
+ "Progress":"70",
+ "bgProgressColor":"bg-green-500",
+ "price":"850"
+},
+{
+ "id":"6",
+ "Name":"Mohamed Application",
+ "Desc":"Mohamed Application Project Design",
+ "date":"15/06/2022",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png"
+ ],
+ "skils":[
+  "Design"
+ ],
+ "Progress":"30",
+ "bgProgressColor":"bg-red-500",
+ "price":"950"
+},
+{
+ "id":"7",
+ "Name":"Mohamed Dashboard",
+ "Desc":"Mohamed Dashboard Project Design And Programming And Hosting",
+ "date":"15/06/2022",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png",
+ "./imgs/team-04.png"
+ ],
+ "skils":[
+  "Programming",
+  "Design",
+  "Hosting",
+  "Marketing"
+ ],
+ "Progress":"60",
+ "bgProgressColor":"bg-green-500",
+ "price":"1950"
+},
+{
+ "id":"8",
+ "Name":"Mohamed Portal",
+ "Desc":"Mohamed Portal Project Design And Programming",
+ "date":"15/06/2022",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png"
+ ],
+ "skils":[
+  "Programming",
+  "Design"
+ ],
+ "Progress":"60",
+ "bgProgressColor":"bg-green-500",
+ "price":"1650"
+},
+{
+ "id":"9",
+ "Name":"Ahmed Application",
+ "Desc":"Ahmed Application Project Design",
+ "date":"15/06/2022",
+ "images":[
+ "./imgs/team-01.png",
+ "./imgs/team-02.png",
+ "./imgs/team-03.png"
+ ],
+ "skils":[
+  "Design"
+ ],
+ "Progress":"90",
+ "bgProgressColor":"bg-green-500",
+ "price":"950"
+}
+]

@@ -1,4 +1,4 @@
-import FriendArr from "./Frineds.json"
+import FriendArr from "../Jsons/Frineds.json"
 import { IoIosCall } from "react-icons/io";
 import { FaRegEnvelope } from "react-icons/fa";
 import { CiFaceSmile } from "react-icons/ci";
